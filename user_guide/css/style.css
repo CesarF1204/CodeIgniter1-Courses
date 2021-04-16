@@ -1,0 +1,70 @@
+.container {
+	border: 5px solid black;
+    width: 700px;
+    display: block;
+    margin: auto;
+    padding: 0 40px 40px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+input, label {
+    display: block;
+    margin: auto;
+    margin: 10px 0;
+}
+h1, label {
+	text-align: center;
+}
+input[type='text'], textarea {
+	display: block;
+    margin: auto;
+    background: none;
+    color: black;
+    border: 1px solid teal;
+    padding: 5px 6px;
+    width: 350px;
+    border-radius: 4px;
+}
+input[type='text']:focus, textarea:focus{
+    background: none;
+    border: 1px solid teal;
+    color: black;
+    padding: 5px 6px;
+    width: 400px;
+    transition: 0.5s ease;
+}
+input[type='submit'] {
+	display: block;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 8px 20px;
+    box-shadow: 3px 3px #000;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+input[type='submit']:hover {
+    transform: translateY(-0.3em);
+    box-shadow: 4px 4px rgba(0,0,0,0.5);
+    transition: 0.3s ease;
+}
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+tbody tr:hover {
+    background-color: #d8d8d8;
+    transition: 0.3s ease;
+}
+.error {
+    color: red;
+}
+.course-added {
+    color: green;
+}

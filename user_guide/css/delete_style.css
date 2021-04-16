@@ -1,0 +1,30 @@
+.container {
+	border: 1px solid black;
+	display: block;
+    margin: auto;
+    width: 800px;
+}
+h1, h2 {
+	text-align: center;
+}
+h2 {
+	font-weight: 400;
+}
+button, a {
+	display: block;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 8px 20px;
+    box-shadow: 3px 3px #000;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+a {
+    width: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #0674e8;
+}
